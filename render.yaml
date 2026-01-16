@@ -18,6 +18,9 @@ services:
       - key: PORT
         value: 10000
 
+      - key: LOG_LEVEL
+        value: info
+
       - key: APP_KEY
         sync: false
 
