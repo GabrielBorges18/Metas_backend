@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Metas Backend API
 
 Backend completo para o sistema de gerenciamento de metas (Squad Goals) desenvolvido com AdonisJS.
@@ -253,3 +254,6 @@ O token é retornado após o registro ou login bem-sucedido.
 
 - `pendente`
 - `concluída`
+=======
+# Metas_backend
+>>>>>>> 010391fe6465077beee6bd9ce7e8f03d67969a8c
