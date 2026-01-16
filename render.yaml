@@ -5,7 +5,7 @@ services:
     plan: free
     region: oregon
 
-    buildCommand: npm ci && node -p "require.resolve('ts-node-maintained')" && npm run build
+    buildCommand: npm ci && npm run build
     startCommand: npm run start
 
     envVars:
