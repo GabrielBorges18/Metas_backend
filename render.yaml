@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: metas-backend
+    env: node
+    plan: free
+    region: oregon
+
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+
+    envVars:
+      - key: NODE_ENV
+        value: production
+
+      - key: HOST
+        value: 0.0.0.0
+
+      - key: PORT
+        value: 10000
+
+      - key: APP_KEY
+        sync: false
+
+      # Database (Neon)
+      - key: DATABASE_URL
+        sync: false
