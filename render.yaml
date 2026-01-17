@@ -27,3 +27,20 @@ services:
       # Database (Neon)
       - key: DATABASE_URL
         sync: false
+      - key: DB_CONNECTION
+        value: pg
+
+      - key: DB_HOST
+        value: ep-billowing-scene-ahmxxxj5-pooler.c-3.us-east-1.aws.neon.tech
+
+      - key: DB_PORT
+        value: "5432"
+
+      - key: DB_USER
+        value: neondb_owner
+
+      - key: DB_PASSWORD
+        sync: false
+
+      - key: DB_DATABASE
+        value: neondb
